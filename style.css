@@ -108,9 +108,17 @@ h1 {
 .Experience {
     text-align: center;
     padding-top: 50px;
-    background-image: url("images/exp-bg.png");
+    background-image: url("images/exp-bg-2.png");
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+.Service {
+    text-align: center;
+    padding-top: 50px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .flexible-container {
