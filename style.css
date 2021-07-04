@@ -134,6 +134,11 @@ h1 {
     background-position: bottom left;
 }
 
+.headingE {
+    text-shadow: 3px 2px grey;
+    padding-top: 50px;
+}
+
 .Service {
     text-align: center;
     padding-top: 50px;
@@ -144,11 +149,6 @@ h1 {
 
 .flexible-container {
     display: flex;
-}
-
-.heading {
-    text-align: center;
-    padding-top: 50px;
 }
 
 .one-third {
