@@ -11,11 +11,16 @@ h1 {
     font-weight: 700;
 }
 
+.port1 {
+    color: red;
+    font-weight: 700;
+}
+
 .half-width a {
     text-decoration: none;
 }
 
-section {
+.top-banner {
     display: flex;
 }
 
@@ -24,12 +29,34 @@ section {
     padding-left: 5%;
 }
 
+.second-half-width {
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.second-half-width-img {
+    width: 50%;
+}
+
 .half-width img {
     width: 100%;
 }
 
-.link-btn {
+.second-half-width-img img {
+    width: 100%;
+}
+
+.link-btn1 {
     background-image: linear-gradient(to right, blue, skyblue);
+    color: #fff;
+    font-weight: 700px;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.link-btn2 {
+    background-image: linear-gradient(to right, red, #fff);
     color: #fff;
     font-weight: 700px;
     padding: 10px 40px;
@@ -41,11 +68,39 @@ section {
     background-repeat: no-repeat;
 }
 
-.link-btn:hover {
+.link-btn1:hover {
     background-image: linear-gradient(to left, orange, rgb(179, 112, 24));
+}
+
+.link-btn2:hover {
+    background-image: linear-gradient(to left, black, white);
 }
 
 .btn {
     margin-top: 40px;
     margin-left: -2px;
+}
+
+.second-half-width .btn {
+    margin-top: 40px;
+    margin-left: -2px;
+}
+
+.second-half-width a {
+    text-decoration: none;
+}
+
+.second-half-width h1 {
+    margin-left: -5px;
+}
+
+.second-banner {
+    display: flex;
+    margin-top: 100px;
+}
+
+.second-banner {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
