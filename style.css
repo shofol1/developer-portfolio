@@ -100,7 +100,7 @@ h1 {
 }
 
 .second-banner {
-    background-image: url("images/dream-bg.png");
+    background-image: url("images/Untitled\ design\ \(11\).png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -128,7 +128,6 @@ h1 {
     margin-left: 30px;
     padding: 30px;
     box-shadow: 10px 10px 40px grey;
-    border-radius: 20px;
 }
 
 .one-third h1 {
@@ -141,17 +140,23 @@ h1 {
 
 .one-third-child1 {
     margin-left: 80px;
-    border-right: 10px solid #000;
+    border-right: 10px solid;
+    border-image: linear-gradient(black, white);
+    border-image-slice: 5;
     transition: .5s;
 }
 
 .one-third-child2 {
-    border-right: 10px solid red;
+    border-right: 10px solid;
+    border-image: linear-gradient(red, white);
+    border-image-slice: 5;
     transition: .5s;
 }
 
 .one-third-child3 {
-    border-right: 10px solid blue;
+    border-right: 10px solid;
+    border-image: linear-gradient(blue, white);
+    border-image-slice: 5;
     transition: .5s;
 }
 
@@ -165,4 +170,26 @@ h1 {
 
 .one-third-child3:hover {
     box-shadow: 10px 10px 40px blue;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, blue, cyan);
+}
+
+.footer p {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    margin-bottom: -25px;
+    margin-top: 40px;
 }
