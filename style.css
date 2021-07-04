@@ -142,27 +142,27 @@ h1 {
 .one-third-child1 {
     margin-left: 80px;
     border-right: 10px solid #000;
+    transition: .5s;
 }
 
 .one-third-child2 {
     border-right: 10px solid red;
-}
-
-.one-third-child1:hover {
-    border-right: none;
-    box-shadow: 10px 10px 40px black;
-}
-
-.one-third-child2:hover {
-    border-right: none;
-    box-shadow: 10px 10px 40px red;
-}
-
-.one-third-child3:hover {
-    border-right: none;
-    box-shadow: 10px 10px 40px blue;
+    transition: .5s;
 }
 
 .one-third-child3 {
     border-right: 10px solid blue;
+    transition: .5s;
+}
+
+.one-third-child1:hover {
+    box-shadow: 10px 10px 40px black;
+}
+
+.one-third-child2:hover {
+    box-shadow: 10px 10px 40px red;
+}
+
+.one-third-child3:hover {
+    box-shadow: 10px 10px 40px blue;
 }
